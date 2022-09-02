@@ -3,8 +3,7 @@ print('Добро пожаловать в числовую угадайку.')
 
 def is_valid(n):
     return n.isdigit() and 1 <= int(n) <= x
-            
-    
+          
 def is_valid_cont():
     while True:
         n = input('введите "Да" или "Нет": ')
@@ -16,7 +15,6 @@ def is_valid_cont():
             break
         else:
             game()
-            
 
 def game():
     print('Напишите предельную границу интервала')
@@ -47,8 +45,6 @@ def game():
     else:
         print('Вы справились за', count, 'попыток. Хотите ещё сыграть?')
 
-
 game()       
 
 is_valid_cont()
-
